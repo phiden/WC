@@ -62,20 +62,51 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ------- FONTS ------- */
 /* ------- MIXINS ------- */
 /* ------- GET ON WITH YOUR BAD SELF ------- */
-/* line 29, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* apply a natural box layout model to all elements */
+/* line 32, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 36, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 html {
   background: url("../../../images/green_bg.jpg") no-repeat center center fixed;
   width: 100%;
   min-height: 100%; }
 
-/* line 36, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 43, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 body {
   width: 80%;
   margin: 20px auto;
-  border: 1px solid orange;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  border: 1px solid orange; }
 
-/* line 46, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 52, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+nav {
+  margin: 0 auto;
+  text-align: center; }
+
+/* line 58, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+nav li {
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 15px; }
+
+/* line 65, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+.main-nav {
+  background: url("../../../images/ribbon.png");
+  display: inline-block;
+  width: 150px;
+  height: 59px; }
+
+/* line 74, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+nav li a {
+  color: white;
+  text-decoration: none;
+  text-align: center; }
+
+/* line 81, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 footer {
   margin-top: 20px;
   padding-top: 20px;

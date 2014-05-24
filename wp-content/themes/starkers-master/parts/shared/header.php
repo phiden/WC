@@ -1,5 +1,13 @@
 <header>
-	<h1><a href="<?php echo home_url(); ?>"><?php bloginfo( 'name' ); ?></a></h1>
-	<?php bloginfo( 'description' ); ?>
-	<?php get_search_form(); ?>
+
+	<nav>
+	
+		<li class='main-nav'><a href=#>go home</a></li>
+		<li class='main-nav'><a href=#>membership</a></li>
+		<li><a href=#><img src='wp-content/images/wc-logo-v1.png'/></a></li>
+		<li class='main-nav'><a href=#>about</a></li>
+		<li class='main-nav'><a href=#>chatter</a></li>
+		
+	</nav>
+
 </header>

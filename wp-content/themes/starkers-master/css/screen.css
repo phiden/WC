@@ -59,10 +59,25 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block; }
 
 /* ------- COLORS ------- */
+/* ------- FONTS ------- */
 /* ------- MIXINS ------- */
 /* ------- GET ON WITH YOUR BAD SELF ------- */
-/* line 23, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 29, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+html {
+  background: url("../../../images/green_bg.jpg") no-repeat center center fixed;
+  width: 100%;
+  min-height: 100%; }
+
+/* line 36, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 body {
   width: 80%;
   margin: 20px auto;
-  border: 1px solid orange; }
+  border: 1px solid orange;
+  font-size: 1.5em; }
+
+/* line 46, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+footer {
+  margin-top: 20px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 0.75em; }

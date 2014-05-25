@@ -60,48 +60,51 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 
 /* ------- COLORS ------- */
 /* ------- FONTS ------- */
+/* ------- PADDINGS ------- */
 /* ------- MIXINS ------- */
 /* ------- MATH ------- */
 /* ------- GET ON WITH YOUR BAD SELF ------- */
 /* apply a natural box layout model to all elements */
-/* line 40, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 46, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 44, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 50, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 body {
   background: url("../../../images/green_bg.jpg") no-repeat center center fixed;
   width: 100%;
   min-height: 100%;
   font-family: "Open Sans", Arial, sans-serif;
-  font-size: 1.1em; }
+  font-size: 1.05em;
+  line-height: 1.8em; }
 
-/* line 53, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 60, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 body.logged-in {
   top: 32px; }
 
-/* line 58, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 65, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 header {
   height: auto;
   overflow: auto; }
 
-/* line 64, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 71, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 #home-container {
   width: 80%;
   margin: 0px auto;
-  font-size: 1.1em;
+  font-size: 1.05em;
   background: #fff;
   position: relative;
   border: 1px solid orange;
-  margin-top: 90px; }
+  margin-top: 90px;
+  padding: 30px; }
 
-/* line 78, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 86, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 #home-container.container-logged-in {
   margin-top: 122px; }
 
-/* line 83, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 91, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 nav {
   margin: 0 auto;
   text-align: center;
@@ -114,12 +117,12 @@ nav {
   z-index: 1000;
   margin-bottom: 90px; }
 
-/* line 100, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 108, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 .nav-logged-in {
   top: 32px;
   margin-bottom: 122px; }
 
-/* line 106, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 114, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 nav li {
   display: inline-block;
   vertical-align: middle;
@@ -127,27 +130,31 @@ nav li {
   margin-left: 20px;
   margin-right: 20px; }
 
-/* line 115, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 123, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 nav li a {
   color: white;
   text-decoration: none;
   text-align: center;
   font-size: 2em; }
 
-/* line 123, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 131, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 nav li a img {
   width: 75px;
   height: auto;
   border: 1px solid orange; }
 
-/* line 130, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 138, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 .main-nav {
   /*background:url('../../../images/ribbon.png');*/
   display: inline-block;
   /*width:150px;
   height:59px;*/ }
 
-/* line 139, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 147, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+p {
+  margin-bottom: 30px; }
+
+/* line 154, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 footer {
   margin-top: 20px;
   padding-top: 20px;

@@ -61,52 +61,93 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 /* ------- COLORS ------- */
 /* ------- FONTS ------- */
 /* ------- MIXINS ------- */
+/* ------- MATH ------- */
 /* ------- GET ON WITH YOUR BAD SELF ------- */
 /* apply a natural box layout model to all elements */
-/* line 32, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 40, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 36, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
-html {
+/* line 44, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+body {
   background: url("../../../images/green_bg.jpg") no-repeat center center fixed;
   width: 100%;
-  min-height: 100%; }
+  min-height: 100%;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 1.1em; }
 
-/* line 43, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
-body {
-  width: 80%;
-  margin: 20px auto;
-  font-size: 1.5em;
-  border: 1px solid orange; }
-
-/* line 52, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
-nav {
-  margin: 0 auto;
-  text-align: center; }
+/* line 53, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+body.logged-in {
+  top: 32px; }
 
 /* line 58, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+header {
+  height: auto;
+  overflow: auto; }
+
+/* line 64, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+#home-container {
+  width: 80%;
+  margin: 0px auto;
+  font-size: 1.1em;
+  background: #fff;
+  position: relative;
+  border: 1px solid orange;
+  margin-top: 90px; }
+
+/* line 78, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+#home-container.container-logged-in {
+  margin-top: 122px; }
+
+/* line 83, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+nav {
+  margin: 0 auto;
+  text-align: center;
+  font-family: "Pompiere", "Georgia", cursive;
+  width: 100%;
+  height: 75px;
+  background: #fec947;
+  top: 0;
+  position: fixed;
+  z-index: 1000;
+  margin-bottom: 90px; }
+
+/* line 100, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+.nav-logged-in {
+  top: 32px;
+  margin-bottom: 122px; }
+
+/* line 106, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 nav li {
   display: inline-block;
   vertical-align: middle;
-  padding-top: 15px; }
+  border: 1px solid orange;
+  margin-left: 20px;
+  margin-right: 20px; }
 
-/* line 65, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
-.main-nav {
-  background: url("../../../images/ribbon.png");
-  display: inline-block;
-  width: 150px;
-  height: 59px; }
-
-/* line 74, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 115, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 nav li a {
   color: white;
   text-decoration: none;
-  text-align: center; }
+  text-align: center;
+  font-size: 2em; }
 
-/* line 81, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+/* line 123, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+nav li a img {
+  width: 75px;
+  height: auto;
+  border: 1px solid orange; }
+
+/* line 130, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
+.main-nav {
+  /*background:url('../../../images/ribbon.png');*/
+  display: inline-block;
+  /*width:150px;
+  height:59px;*/ }
+
+/* line 139, ../../../../../../Sites/sass/workcreative/sass/screen.scss */
 footer {
   margin-top: 20px;
   padding-top: 20px;
